@@ -90,7 +90,7 @@ std::vector<OptionHandler*> OptionHandlerFactory::createOptionHandlers()
 #  if defined(__ANDROID__) || defined(ANDROID)
                                                A2_V_FALSE,
 #  else  // !__ANDROID__ && !ANDROID
-                                               A2_V_TRUE,
+                                               A2_V_FALSE,
 #  endif // !__ANDROID__ && !ANDROID
                                                OptionHandler::OPT_ARG));
     op->addTag(TAG_ADVANCED);
